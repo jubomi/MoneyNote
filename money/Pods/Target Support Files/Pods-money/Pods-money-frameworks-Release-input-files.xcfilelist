@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-money/Pods-money-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
 ${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

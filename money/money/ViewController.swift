@@ -33,9 +33,9 @@ class ViewController: UIViewController {
     }
     func moveToVC(){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let HomeVC = storyboard.instantiateViewController(identifier: "HomeSB")
-        HomeVC.modalPresentationStyle = .fullScreen
-        self.present(HomeVC, animated: true)
+        let TabBarVC = storyboard.instantiateViewController(identifier: "TabBarSB")
+        TabBarVC.modalPresentationStyle = .fullScreen
+        self.present(TabBarVC, animated: true)
     }
 }
 

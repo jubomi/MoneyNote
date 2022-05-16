@@ -7,5 +7,7 @@ target 'money' do
 
   # Pods for money
 pod 'lottie-ios'
+pod 'DropDown'
+pod 'Charts'
 
 end

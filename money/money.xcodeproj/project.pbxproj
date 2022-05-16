@@ -16,6 +16,10 @@
 		58556B9C28278A74008B323A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58556B9A28278A74008B323A /* LaunchScreen.storyboard */; };
 		58556BA428278DD0008B323A /* 102212-pig-coin.json in Resources */ = {isa = PBXBuildFile; fileRef = 58556BA328278DD0008B323A /* 102212-pig-coin.json */; };
 		58556BA628279115008B323A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BA528279115008B323A /* HomeViewController.swift */; };
+		58556BA8282D37F7008B323A /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BA7282D37F7008B323A /* ChartViewController.swift */; };
+		58556BAA282D385C008B323A /* ExpensesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BA9282D385C008B323A /* ExpensesListViewController.swift */; };
+		58556BAC282D391A008B323A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BAB282D391A008B323A /* TabBarViewController.swift */; };
+		58556BAE2830D3DF008B323A /* FinanceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BAD2830D3DE008B323A /* FinanceListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		58556B9D28278A74008B323A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58556BA328278DD0008B323A /* 102212-pig-coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102212-pig-coin.json"; sourceTree = "<group>"; };
 		58556BA528279115008B323A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58556BA7282D37F7008B323A /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		58556BA9282D385C008B323A /* ExpensesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListViewController.swift; sourceTree = "<group>"; };
+		58556BAB282D391A008B323A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		58556BAD2830D3DE008B323A /* FinanceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceListViewController.swift; sourceTree = "<group>"; };
 		58819B4C872AE634886F3B0A /* Pods-money.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money.release.xcconfig"; path = "Target Support Files/Pods-money/Pods-money.release.xcconfig"; sourceTree = "<group>"; };
 		7446832FF72644EC41464FC0 /* Pods-money.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money.debug.xcconfig"; path = "Target Support Files/Pods-money/Pods-money.debug.xcconfig"; sourceTree = "<group>"; };
 		D207117213D73D2F404D69C7 /* Pods_money.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_money.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +84,10 @@
 				58556B9828278A74008B323A /* Assets.xcassets */,
 				58556B9A28278A74008B323A /* LaunchScreen.storyboard */,
 				58556B9D28278A74008B323A /* Info.plist */,
+				58556BA7282D37F7008B323A /* ChartViewController.swift */,
+				58556BA9282D385C008B323A /* ExpensesListViewController.swift */,
+				58556BAB282D391A008B323A /* TabBarViewController.swift */,
+				58556BAD2830D3DE008B323A /* FinanceListViewController.swift */,
 			);
 			path = money;
 			sourceTree = "<group>";
@@ -214,8 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58556B9428278A72008B323A /* ViewController.swift in Sources */,
+				58556BAE2830D3DF008B323A /* FinanceListViewController.swift in Sources */,
 				58556B9028278A72008B323A /* AppDelegate.swift in Sources */,
+				58556BAA282D385C008B323A /* ExpensesListViewController.swift in Sources */,
 				58556B9228278A72008B323A /* SceneDelegate.swift in Sources */,
+				58556BAC282D391A008B323A /* TabBarViewController.swift in Sources */,
+				58556BA8282D37F7008B323A /* ChartViewController.swift in Sources */,
 				58556BA628279115008B323A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
