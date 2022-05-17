@@ -27,7 +27,7 @@ extension FinanceListViewController: UITableViewDataSource, UITableViewDelegate 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "testListCell", for: indexPath) as? TestListCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "financeListCell", for: indexPath) as? FinanceListCell else {
                     return UITableViewCell()
                 }
                 return cell
