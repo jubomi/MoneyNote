@@ -23,6 +23,9 @@
 		58556BB028322EF5008B323A /* FinanceListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BAF28322EF5008B323A /* FinanceListCell.swift */; };
 		58556BB228338B40008B323A /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BB128338B40008B323A /* DepositViewController.swift */; };
 		58556BB428338BF1008B323A /* ShowDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BB328338BF1008B323A /* ShowDepositViewController.swift */; };
+		58556BB62833A40A008B323A /* WithDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BB52833A40A008B323A /* WithDrawViewController.swift */; };
+		58556BB82833A623008B323A /* ShowWithDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BB72833A623008B323A /* ShowWithDrawViewController.swift */; };
+		58556BBA283CE41B008B323A /* ButtonDWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58556BB9283CE41A008B323A /* ButtonDWViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		58556BAF28322EF5008B323A /* FinanceListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceListCell.swift; sourceTree = "<group>"; };
 		58556BB128338B40008B323A /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
 		58556BB328338BF1008B323A /* ShowDepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDepositViewController.swift; sourceTree = "<group>"; };
+		58556BB52833A40A008B323A /* WithDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithDrawViewController.swift; sourceTree = "<group>"; };
+		58556BB72833A623008B323A /* ShowWithDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWithDrawViewController.swift; sourceTree = "<group>"; };
+		58556BB9283CE41A008B323A /* ButtonDWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDWViewController.swift; sourceTree = "<group>"; };
 		58819B4C872AE634886F3B0A /* Pods-money.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money.release.xcconfig"; path = "Target Support Files/Pods-money/Pods-money.release.xcconfig"; sourceTree = "<group>"; };
 		7446832FF72644EC41464FC0 /* Pods-money.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money.debug.xcconfig"; path = "Target Support Files/Pods-money/Pods-money.debug.xcconfig"; sourceTree = "<group>"; };
 		D207117213D73D2F404D69C7 /* Pods_money.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_money.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +103,9 @@
 				58556BAF28322EF5008B323A /* FinanceListCell.swift */,
 				58556BB128338B40008B323A /* DepositViewController.swift */,
 				58556BB328338BF1008B323A /* ShowDepositViewController.swift */,
+				58556BB52833A40A008B323A /* WithDrawViewController.swift */,
+				58556BB72833A623008B323A /* ShowWithDrawViewController.swift */,
+				58556BB9283CE41A008B323A /* ButtonDWViewController.swift */,
 			);
 			path = money;
 			sourceTree = "<group>";
@@ -236,12 +245,15 @@
 			files = (
 				58556B9428278A72008B323A /* ViewController.swift in Sources */,
 				58556BAE2830D3DF008B323A /* FinanceListViewController.swift in Sources */,
+				58556BB82833A623008B323A /* ShowWithDrawViewController.swift in Sources */,
 				58556B9028278A72008B323A /* AppDelegate.swift in Sources */,
 				58556BAA282D385C008B323A /* ExpensesListViewController.swift in Sources */,
+				58556BB62833A40A008B323A /* WithDrawViewController.swift in Sources */,
 				58556B9228278A72008B323A /* SceneDelegate.swift in Sources */,
 				58556BAC282D391A008B323A /* TabBarViewController.swift in Sources */,
 				58556BB228338B40008B323A /* DepositViewController.swift in Sources */,
 				58556BB428338BF1008B323A /* ShowDepositViewController.swift in Sources */,
+				58556BBA283CE41B008B323A /* ButtonDWViewController.swift in Sources */,
 				58556BB028322EF5008B323A /* FinanceListCell.swift in Sources */,
 				58556BA8282D37F7008B323A /* ChartViewController.swift in Sources */,
 				58556BA628279115008B323A /* HomeViewController.swift in Sources */,
